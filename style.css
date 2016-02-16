@@ -839,9 +839,59 @@ article.item.column.six.shuffle-item.filtered {
 
 /*サブページ*/
 
-.sub-page {
-    margin-top: 95px;
+.sub-bg {
+    background-image: url(./img/bg-bottom.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
 }
+
+
+
+.sub-page p{
+    font-size: 14px;
+}
+
+.sub-title {
+    position:relative;
+    padding:5px;
+    font:24px/1.6 Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#655;
+    border-top:1px dashed #aaa;
+    border-bottom:1px dashed #aaa;
+    background:#FDFFEC;
+    text-shadow:1px 1px 0 rgba(255,255,255,1);
+    box-shadow: 0 5px 4px -4px rgba(0,0,0,0.3) inset;
+}
+
+.sub-head {
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sub-head img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0 10px 10px 0;
+}
+
+.sub-head h2 {
+    font-weight: 100;
+    padding: 40px 10px 10px;
+    color: #568A20;
+    border-bottom: solid;
+    display: inline-block;
+}
+
+.sub-head p {
+    padding-left: 20px;
+    text-align: center;
+}
+
+
 
 /*----------------------------------------------------------------
     Blog & Portfolio
